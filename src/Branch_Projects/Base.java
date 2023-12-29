@@ -14,11 +14,9 @@ public class Base {
         System.out.println("Ingrese Valor B : ");
         int b = scanner.nextInt();
         System.out.println("Ingresa operador: ");
-        char operator = (char) scanner.nextInt();
-         suma = a+b;
-         resta = a-b;
-         division = a/b;
-         multiplicacion = a*b;
+        char operator;
+        operator = scanner.next().charAt(0);
+        int r = 0;
 
         switch (operator){
             case 1 :
