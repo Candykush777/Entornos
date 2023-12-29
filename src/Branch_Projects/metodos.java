@@ -2,12 +2,12 @@ package Branch_Projects;
 
 public class metodos {
 
-    public int sumar (int a, int b){
+    public int suma (int a, int b){
 
          return a + b;
     }
 
-    public  int restar (int a, int b){
+    public  int resta (int a, int b){
          return  a - b;
     }
 
