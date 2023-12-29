@@ -13,12 +13,30 @@ public class Base {
         int a = scanner.nextInt();
         System.out.println("Ingrese Valor B : ");
         int b = scanner.nextInt();
-        System.out.println("\n Resultado Suma : " + suma);
-        System.out.println("\n Resultado de la Resta : " + resta);
-        System.out.println("\n Resultado de la División : " + division);
-        System.out.println("\n Resultado de la Multiplicación : " + multiplicacion);
-        System.out.println();
+        System.out.println("Enter operator: ");
+        char operator = (char) scanner.nextInt();
 
+        switch (operator){
+            case '+':
+                System.out.println("\n Resultado Suma : " + suma);
+                break;
+
+            case '-':
+                System.out.println("\n Resultado de la Resta : " + resta);
+                break;
+
+            case '/':
+                System.out.println("\n Resultado de la División : " + division);
+                break;
+
+            case '*':
+                System.out.println("\n Resultado de la Multiplicación : " + multiplicacion);
+                break;
+
+            default:
+                System.out.println("No valido");
+
+        }
     }
 
 }
