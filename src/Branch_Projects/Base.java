@@ -21,7 +21,7 @@ public class Base {
          multiplicacion = a*b;
 
         switch (operator){
-            case '+':
+            case 1 :
                 System.out.println("\n Resultado Suma : " + a + "+" + b + "=" + suma);
                 break;
 
