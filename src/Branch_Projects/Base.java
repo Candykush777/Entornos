@@ -20,22 +20,19 @@ public class Base {
 
         switch (operator){
             case '+':
-                System.out.println("\n Resultado Suma : " + a + "+" + b + "=" + r);
+                System.out.println("\n Resultado Suma : " + a + "+" + b + "=" + suma);
                 break;
 
             case '-':
-                r = a - b;
-                System.out.println("\n Resultado de la Resta : " + a + "-" + b + "=" + r);
+                System.out.println("\n Resultado de la Resta : " + a + "-" + b + "=" + resta);
                 break;
 
             case '/':
-                r = a / b;
-                System.out.println("\n Resultado de la División : " + a + "/" + b + "=" + r);
+                System.out.println("\n Resultado de la División : " + a + "/" + b + "=" + division);
                 break;
 
             case '*':
-                r = a * b;
-                System.out.println("\n Resultado de la Multiplicación : " + a + "*" + b + "=" + r);
+                System.out.println("\n Resultado de la Multiplicación : " + a + "*" + b + "=" + multiplicacion);
                 break;
 
             default:
