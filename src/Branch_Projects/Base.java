@@ -14,27 +14,28 @@ public class Base {
         System.out.println("Ingrese Valor B : ");
         int b = scanner.nextInt();
         System.out.println("Ingresa operador: ");
-        char operator = (char) scanner.nextInt();
-         suma = a+b;
-         resta = a-b;
-         division = a/b;
-         multiplicacion = a*b;
+        char operator;
+        operator = scanner.next().charAt(0);
+        int r = 0;
 
         switch (operator){
             case '+':
-                System.out.println("\n Resultado Suma : " + a + "+" + b + "=" + suma);
+                System.out.println("\n Resultado Suma : " + a + "+" + b + "=" + r);
                 break;
 
             case '-':
-                System.out.println("\n Resultado de la Resta : " + a + "-" + b + "=" + resta);
+                r = a - b;
+                System.out.println("\n Resultado de la Resta : " + a + "-" + b + "=" + r);
                 break;
 
             case '/':
-                System.out.println("\n Resultado de la División : " + a + "/" + b + "=" + division);
+                r = a / b;
+                System.out.println("\n Resultado de la División : " + a + "/" + b + "=" + r);
                 break;
 
             case '*':
-                System.out.println("\n Resultado de la Multiplicación : " + a + "*" + b + "=" + multiplicacion);
+                r = a * b;
+                System.out.println("\n Resultado de la Multiplicación : " + a + "*" + b + "=" + r);
                 break;
 
             default:
