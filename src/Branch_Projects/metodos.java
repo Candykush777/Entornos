@@ -2,21 +2,21 @@ package Branch_Projects;
 
 public class metodos {
 
-    public class sumar{
+    public int sumar (int a, int b){
 
-         sumar =  a + b;
+         return a + b;
     }
 
-    public class restar{
-         sumar =  a - b;
+    public  int restar (int a, int b){
+         return  a - b;
     }
 
-    public class division{
-        sumar =  a / b;
+    public int division (int a, int b){
+        return a / b;
     }
 
-    public class multiplicacion{
-        sumar =  a * b;
+    public int multiplicacion (int a, int b){
+        return  a * b;
     }
 
 
