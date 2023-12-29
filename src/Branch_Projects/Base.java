@@ -18,20 +18,20 @@ public class Base {
         operator = scanner.next().charAt(0);
         int r = 0;
 
-        switch (operator){
-            case 1 :
+        switch (operator) {
+            case 1:
                 System.out.println("\n Resultado Suma : " + a + "+" + b + "=" + suma);
                 break;
 
-            case '-':
+            case 2:
                 System.out.println("\n Resultado de la Resta : " + a + "-" + b + "=" + resta);
                 break;
 
-            case '/':
+            case 3:
                 System.out.println("\n Resultado de la División : " + a + "/" + b + "=" + division);
                 break;
 
-            case '*':
+            case 4:
                 System.out.println("\n Resultado de la Multiplicación : " + a + "*" + b + "=" + multiplicacion);
                 break;
 
